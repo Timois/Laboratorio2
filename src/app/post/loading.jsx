@@ -1,9 +1,7 @@
-
+import PostLoader from '../components/skeleton/postLoaders';
 const Loading = () => {
     return (
-        <div>
-            Loader:
-        </div>
+        <PostLoader />
     )
 }
 export default Loading;
